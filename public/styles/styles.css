@@ -1,4 +1,30 @@
-@import "./grid.css";
+/* ===================================
+   TABLE OF CONTENTS
+=================================== */
+/*
+ 1. GOOGLE FONTS
+   2. RESET STYLES
+   3. ROOT VARIABLES
+   4. UTILITY CLASSES
+      - Background Colors
+      - Flex Utilities
+      - Button Styles
+ 2. NAVBAR 
+ 3. HERO SECTION
+ 4. ABOUT SECTION
+ 5. SKILLS SECTION
+ 6. PROJECTS SECTION
+ 7. CONTACT US SECTION
+ 8. FOOTER
+ 9. RESPONSIVE BREAKPOINTS
+      - Small Devices (≥576px)
+      - Medium Devices (≥768px)
+      - Large Devices (≥992px)
+      - Larger Devices (≥1200px)
+      - Largest Devices (≥1400px)
+*/
+
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   box-sizing: border-box;
@@ -14,20 +40,13 @@ html {
   --secondary-color: #66fcf1;
   --alternative-color: #c5c6c7;
   --white-color: #fff;
-  /* ---------------typography------------ */
-  /* headings  */
-  --heading-1: 1.5rem;
-  --heading-2: 1.25rem;
-  --heading-3: 1.25rem;
-  --heading-4: 1.125rem;
 
-  /* :root {
+  /* ---------------typography------------ */
   --heading-1: 2rem;
   --heading-2: 1.75rem;
   --heading-3: 1.5rem;
   --heading-4: 1.375rem;
   --heading-5: 1.15rem;
-} */
 }
 
 body {
@@ -214,7 +233,7 @@ a {
 .navbar .btn {
   color: var(--primary-color);
   background-color: var(--secondary-color);
-  padding: .75rem;
+  padding: 0.75rem;
   margin: 0;
 }
 .navbar .btn:hover {
@@ -546,7 +565,7 @@ a {
     --heading-3: 2rem;
     --heading-4: 1.75rem;
   }
-  /* ========NAVBAR SECTION ========= */
+  /* ======== NAVBAR SECTION ========= */
   .navbar ul {
     position: inherit;
     width: 100%;
